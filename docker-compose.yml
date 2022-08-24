@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  todoservices:
+    build: .
+
+    container_name: todo_container2
+    ports:
+      - "81:80"
+
+  
